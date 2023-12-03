@@ -1,0 +1,72 @@
+:root {
+    --main-color: #522c2c;
+}
+
+.par-1 {
+    padding-right: 10px !important;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.nav-link:hover {
+    color: rgb(178, 178, 178);
+}
+
+.btn-main {
+    background-color: var(--main-color) !important;
+    color: #fff !important;
+}
+
+.nav-link.active {
+    background: var(--main-color) !important;
+}
+
+.logo {
+    font-weight: 400;
+}
+
+.logo span {
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    opacity: 1;
+}
+
+.social-medias {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-top: 2rem;
+}
+
+.social-icon {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-right: 15px;
+    overflow: hidden;
+}
+
+.testimonial-photo {
+    width: 45px;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-right: 15px;
+    overflow: hidden;
+}
